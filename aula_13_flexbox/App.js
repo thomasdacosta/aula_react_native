@@ -42,14 +42,14 @@ const ExemploFlexbox = () => {
                 </View>
 
                 <View style={styles.section}>
-                    <Text style={styles.text}>Exemplo com flex e flexWrap</Text>
+                    <Text style={styles.text}>Exemplo com flexWrap</Text>
                     <View style={styles.flexContainer}>
-                        <View style={[styles.box, {flex: 1, backgroundColor: 'red'}]}/>
-                        <View style={[styles.box, {flex: 2, backgroundColor: 'green'}]}/>
-                        <View style={[styles.box, {flex: 3, backgroundColor: 'blue'}]}/>
-                        <View style={[styles.box, {flex: 1, backgroundColor: 'yellow'}]}/>
-                        <View style={[styles.box, {flex: 1, backgroundColor: 'orange'}]}/>
-                        <View style={[styles.box, {flex: 1, backgroundColor: 'purple'}]}/>
+                        <View style={[styles.box, { backgroundColor: 'red'}]}/>
+                        <View style={[styles.box, { backgroundColor: 'green'}]}/>
+                        <View style={[styles.box, { backgroundColor: 'blue'}]}/>
+                        <View style={[styles.box, { backgroundColor: 'yellow'}]}/>
+                        <View style={[styles.box, { backgroundColor: 'orange'}]}/>
+                        <View style={[styles.box, { backgroundColor: 'purple'}]}/>
                     </View>
                 </View>
             </View>

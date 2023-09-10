@@ -4,7 +4,6 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import MostrarDados from "./MostrarDados";
-import {v4 as uuidv4} from 'uuid';
 
 const Cadastro = ({navigation}) => {
     const [nome, setNome] = useState('');
