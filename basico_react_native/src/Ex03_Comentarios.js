@@ -2,9 +2,10 @@ import React from 'react';
 import { Text, SafeAreaView } from 'react-native';
 
 const App = () => {
+    // let numero = 10;
     return (
         <SafeAreaView>
-            <Text>Exemplo de comentário em código fonte</Text>
+            <Text>Ex03: Exemplo de comentário em código fonte</Text>
             {/* <Text>Comentando um código JSX</Text> */}
         </SafeAreaView>
     );

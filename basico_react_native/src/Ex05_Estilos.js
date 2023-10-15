@@ -4,7 +4,7 @@ import { Text, SafeAreaView, StyleSheet } from 'react-native';
 const App = () => {
     return (
         <SafeAreaView>
-            <Text style={Estilos.texto}>Primeiro exemplo básico de React Native</Text>
+            <Text style={Estilos.texto}>Ex05: Primeiro exemplo básico de React Native com Estilos</Text>
         </SafeAreaView>
     );
 }
@@ -12,7 +12,7 @@ const App = () => {
 const Estilos = StyleSheet.create({
     texto: {
         color: 'red',
-        fontSize: 30
+        fontSize: 20
     }
 });
 

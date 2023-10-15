@@ -1,12 +1,13 @@
 import React from 'react';
 import { Text, SafeAreaView } from 'react-native';
 
-const App = () => {
+const App = ({param1, param2}) => {
     return (
         <SafeAreaView>
-            <Text>Ex04: JSX: Código a seguir está dentro de um Javascript { 1 + 1 }</Text>
+            <Text>Ex07: props fixo 1: {param1}</Text>
+            <Text>Ex07: props fixo 2: {param2}</Text>
         </SafeAreaView>
     );
-}
+};
 
 export default App;
