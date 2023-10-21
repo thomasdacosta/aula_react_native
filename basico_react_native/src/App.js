@@ -17,6 +17,7 @@ import Familia from './relacao/Familia';
 import Membro from './relacao/Membro';
 import UsuarioLogado from './condicional/UsuarioLogado';
 import ListaProdutos from './listas/ListaProdutos';
+import Ex13_Componente_Controlado from './Ex13_Componente_Controlado';
 
 const App = () => {
   return (
@@ -96,8 +97,12 @@ const App = () => {
         </View>
 
         <View style={Estilos.container}>
-            <ListaProdutos />
-          </View>
+          <ListaProdutos />
+        </View>
+
+        <View style={Estilos.container}>
+          <Ex13_Componente_Controlado />
+        </View>
 
       </SafeAreaView>
     </ScrollView>
