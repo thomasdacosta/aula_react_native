@@ -1,6 +1,8 @@
-# Aula 02 - 
+# Aula 02 - Conceitos de API REST
 
 ## Link do Guia
+
+[https://thomasdacosta.com.br/2023/12/17/step-by-step-basico-do-postman/](https://thomasdacosta.com.br/2023/12/17/step-by-step-basico-do-postman/)
 
 ## Configuração Rápida:
 
