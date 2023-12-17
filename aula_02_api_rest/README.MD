@@ -2,9 +2,9 @@
 
 ## Link do Guia
 
-![alt text](aula02.png)
-
 [https://thomasdacosta.com.br/2023/12/17/step-by-step-basico-do-postman/](https://thomasdacosta.com.br/2023/12/17/step-by-step-basico-do-postman/)
+
+![alt text](aula02.png)
 
 ## Configuração Rápida:
 
