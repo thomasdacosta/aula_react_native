@@ -1,182 +1,105 @@
-import React, {useEffect, useState} from "react";
-import {
-  SafeAreaView,
-  Text,
-  TextInput,
-  View,
-  FlatList,
-  Button,
-  ActivityIndicator, Pressable, Image, StyleSheet,
-} from "react-native";
+import React from 'react';
+import { SafeAreaView, StyleSheet, Text, View, FlatList, Pressable, Image } from 'react-native';
 
 const App = () => {
-  const PERSONAGEM_DEFAULT = "thor";
-
-  const [jsonData, setJsonData] = useState("");
-  const [personagem, setPersonagem] = useState(PERSONAGEM_DEFAULT);
-  const [activity, setActivity] = useState(false);
-  const [totalPersonagens, setTotalPersonagens] = useState(0);
-
-  const URL = "http://gateway.marvel.com/v1/public/" +
-      "characters?ts=1" +
-      "&apikey=f59dbe01285f1d360542b5c47a9516e3" +
-      "&hash=0ea6be79e04ac1b0400d65ffc11088f9" +
-      "&nameStartsWith=" + personagem + "&orderBy=name&limit=100";
-
-  const JSON_RETORNO_VAZIO = [
+  const DATA = [
     {
-      "id": 1,
-      "name": "Nenhum personagem encontrado. \nVamos ficar com Cap nos nossos corações.",
-      "description": "Eu também gosto dele :)",
+      "id": 1009220,
+      "name": "Captain America",
+      "description": "Vowing to serve his country any way he could, young Steve Rogers took the super soldier serum to become America's one-man army. Fighting for the red, white and blue for over 60 years, Captain America is the living, breathing symbol of freedom and liberty.",
       "modified": "2020-04-04T19:01:59-0400",
       "thumbnail": {
         "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087",
-        "extension": "jpg",
-      },
+        "extension": "jpg"
+      }
     },
-  ];
+    {
+      "id": 1010914,
+      "name": "Captain America (House of M)",
+      "idade" : 44,
+      "description": "",
+      "modified": "2014-03-05T13:17:50-0500",
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/10/53176a1e7c0d5",
+        "extension": "jpg"
+      }
+    },
+    {
+      "id": 1017295,
+      "name": "Captain America (LEGO Marvel Super Heroes)",
+      "description": "",
+      "modified": "2013-09-18T11:15:29-0400",
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/b0/5239c38051946",
+        "extension": "jpg"
+      }
+    },
+    {
+      "id": 1017575,
+      "name": "Captain America (Sam Wilson)",
+      "description": "<p class=\"Body\">Sam Wilson, a Harlem native, previously operated under the name Falcon, fighting alongside the Avengers. When his longtime friend Steve Rogers stepped down as Captain America, Wilson was hand-picked to fill the role. Now the former Falcon soars through the skies wearing red, white and blue.</p>",
+      "modified": "2014-11-17T17:46:57-0500",
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/545a84a75ddaf",
+        "extension": "jpg"
+      }
+    }
+  ]
 
-  const MarvelApiClient = async (url, exibir) => {
-    await fetch(url, {
-      method: "GET",
-    }).then((response) => {
-      if (response.status === 200) {
-        response.json().then((result) => {
-          if (result.data.results.length === 0)
-            exibir(JSON_RETORNO_VAZIO, 0);
-          else
-            exibir(result.data.results, result.data.results.length);
-        });
-      } else
-        exibir(JSON_RETORNO_VAZIO, 0);
-    }).catch(() => exibir(JSON_RETORNO_VAZIO, 0));
-  };
-
-  const ExibirBusca = (json, total) => {
-    setJsonData(json);
-    setTotalPersonagens(total);
-  };
-
-  const BuscarPersonagem = () => {
-    setTotalPersonagens(0);
-    setJsonData(null);
-    setActivity(true);
-    MarvelApiClient(URL, ExibirBusca).then(() => {
-    });
-    setActivity(false);
-  };
-
-  useEffect(() => {
-    setPersonagem(PERSONAGEM_DEFAULT);
-    BuscarPersonagem();
-  }, []);
-
-  const Personagem = ({item, evento, link}) => (
+  const Personagem = ({ item, evento, link }) => (
       <View>
         <Pressable onPress={evento}>
           <Image
-              style={Estilos.imagemPersonagem}
+              style={styles.tinyLogo}
               source={{
                 uri: link,
               }}
           />
-          <Text style={Estilos.paragraph}>{item.name}</Text>
+          <Text style={styles.paragraph}>{item.name}</Text>
+          <Text style={styles.paragraph}>{item.name}</Text>
         </Pressable>
       </View>
   );
 
-  const PersonagemItem = ({item}) => (
+  const ExibirPersonagem = ({ item }) => (
       <Personagem
           item={item}
-          evento={() => alert(item.description === "" ? "Personagem sem descrição" : item.description)}
-          link={item.thumbnail.path + "/portrait_uncanny.jpg"}/>
+          evento={() => alert(item.description == "" ? "Personagem sem descrição" : item.description)}
+          link={item.thumbnail.path + "/portrait_medium.jpg"} />
   );
 
   return (
-      <SafeAreaView style={Estilos.container}>
-        <Text style={Estilos.personagem}></Text>
-        <Text style={Estilos.personagem}>Pesquisar Personagem:</Text>
-        <TextInput
-            autoCorrect={false}
-            style={Estilos.textInput}
-            clearButtonMode="always"
-            placeholder={"Ex: " + PERSONAGEM_DEFAULT}
-            onChangeText={(value) => setPersonagem(value)}
-            onEndEditing={e => BuscarPersonagem()}
-        />
-        <View style={Estilos.button}>
-          <Button title="Pesquisar" onPress={() => {
-            BuscarPersonagem()
-          }}/>
-        </View>
-        <View style={{marginTop: 10}}>
-          <ActivityIndicator size="large" animating={activity}/>
-        </View>
-        <Text style={Estilos.personagem}>{totalPersonagens} Personagens Encontrados</Text>
+      <SafeAreaView style={styles.container}>
         <FlatList
-            style={{marginTop: 100}}
-            data={jsonData}
-            renderItem={PersonagemItem}
+            data={DATA}
+            renderItem={ExibirPersonagem}
             keyExtractor={item => item.id}
         />
       </SafeAreaView>
-  );
+  )
+}
 
-};
-
-const Estilos = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#191970',
-    padding: 20,
+    backgroundColor: '#202020',
+    padding: 8,
   },
   paragraph: {
     margin: 12,
     padding: 10,
-    fontSize: 20,
+    fontSize: 14,
     color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
-    backgroundColor: '#191970',
+    backgroundColor: '#7F7F7F',
   },
-  personagem: {
-    color: 'white',
-    marginTop: 10,
-    fontSize: 15,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-  textInput: {
-    backgroundColor: 'white',
-    color: 'black',
-    marginTop: 20,
-    fontSize: 15,
-    height: 40,
-    width: 350,
-    marginHorizontal: 20,
-    paddingHorizontal: 10,
+  tinyLogo: {
+    width: 100,
+    height: 150,
     alignSelf: 'center',
-    borderColor: 'black',
-    borderWidth: 2,
-    borderRadius: 10
   },
-  button: {
-    backgroundColor: 'grey',
-    color: 'white',
-    fontSize: 15,
-    width: 120,
-    height: 35,
-    marginTop: 20,
-    marginHorizontal: 20,
-    textAlign: 'center',
-    alignSelf: 'center'
-  },
-  imagemPersonagem: {
-    width: 200,
-    height: 350,
-    alignSelf: 'center',
-  }
 });
 
 export default App;

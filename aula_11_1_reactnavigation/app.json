@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "aula_11_1_reactnavigation",
-    "slug": "snack-4ac6f7ed-c2a4-4433-aaa2-6f3ac0874129",
+    "name": "aula_11_reactnavigation",
+    "slug": "aula_11_reactnavigation",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +25,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "description": "Mostrando o funcionamento básico do React Navigation"
+    }
   }
 }
