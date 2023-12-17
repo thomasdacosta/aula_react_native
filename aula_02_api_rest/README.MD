@@ -20,14 +20,6 @@ Abra o Postman Web e crie uma nova coleção para organizar suas interações. C
 
 A API Reqres simula autenticação. Descubra como incluir dados de autenticação em suas requisições diretamente no Postman Web. Execute operações de criação, leitura, atualização e exclusão de usuários de forma intuitiva.
 
-## Analisando Respostas e Status Codes:
-
-Compreenda como interpretar as respostas da API, analisar os códigos de status e lidar com possíveis erros, tudo dentro do ambiente amigável do Postman Web.
-
-## Documentação Simplificada:
-
-Aproveite as ferramentas de documentação do Postman para manter um registro claro e organizado de suas requisições, facilitando referências futuras.
-
 ## Integração em Projetos Reais:
 
 Este guia é apenas o começo! Leve suas habilidades para projetos do mundo real, integrando o Postman Web ao seu fluxo de desenvolvimento.
