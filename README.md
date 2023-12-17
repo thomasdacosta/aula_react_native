@@ -1,5 +1,23 @@
 # React Native Componentes
 
+## Tema das aulas
+
+- Aula 01 - Apresentação
+- Aula 02 - Conceitos de API REST
+- Aula 03 - JavaScript - Conceitos Básicos
+- Aula 04 - React Native
+- Aula 05 - JavaScript - Functions e Arrow Functions
+- Aula 06 - Componentes Visuais do React Native
+- Aula 07 - Hook - useState
+- Aula 08 - Hook - useEffect
+- Aula 09 - Componentização no React Native
+- Aula 10 - FlatList
+- Aula 11 - React Navigation
+- Aula 12 - Modal
+- Aula 13 - Flexbox
+- Aula 14 - Armazenamento - AsyncStorage
+- Aula 15 - Promise e Fecth
+
 ## Objetivo
 
 Componentes básicos do React Native e seu funcionamento
