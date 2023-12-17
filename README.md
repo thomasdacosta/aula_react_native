@@ -17,6 +17,9 @@
 - Aula 13 - Flexbox
 - Aula 14 - Armazenamento - AsyncStorage
 - Aula 15 - Promise e Fecth
+- Aula 16 – Código Nativo no React Native
+- Aula 17 – Geração do pacote e deploy nas lojas oficiais
+- Aula 18 – Redux
 
 ## Objetivo
 
