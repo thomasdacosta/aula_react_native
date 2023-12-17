@@ -1,7 +1,7 @@
 # Aula 07 - Hook - useState
 
-- “Hooks são funções que permitem a você “ligar-se” aos recursos de state e ciclo de vida do React a partir de componentes funcionais. React fornece alguns Hooks internos como useState.” (https://pt-br.reactjs.org/docs/hooks-intro.html)(https://pt-br.react.dev/reference/react)
-- “useState é um Hook que permite que você adicione o state do React a um componente de função.” (https://pt-br.reactjs.org/docs/hooks-state.html)(https://react.dev/reference/react/useState)
+- “Hooks são funções que permitem a você “ligar-se” aos recursos de state e ciclo de vida do React a partir de componentes funcionais. React fornece alguns Hooks internos como useState.” (https://pt-br.reactjs.org/docs/hooks-intro.html),(https://pt-br.react.dev/reference/react)
+- “useState é um Hook que permite que você adicione o state do React a um componente de função.” (https://pt-br.reactjs.org/docs/hooks-state.html),(https://react.dev/reference/react/useState)
 
 ## Tela do Aplicativo
 
