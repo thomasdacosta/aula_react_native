@@ -6,23 +6,23 @@
 
 ![alt text](aula02.png)
 
-## Configuração Rápida:
+## Configuração Rápida
 
 Antes de começar, certifique-se de acessar o Postman Web em [postman.com](https://www.postman.com/) e criar uma conta gratuita para aproveitar todas as funcionalidades.
 
-## Conhecendo a API Reqres:
+## Conhecendo a API Reqres
 
 Dê uma olhada nas [Endpoints da API Reqres](https://reqres.in/) para se familiarizar com as operações disponíveis. Essa API oferece um ambiente seguro para testar suas habilidades com CRUD.
 
-## Usando o Postman no Navegador:
+## Usando o Postman no Navegador
 
 Abra o Postman Web e crie uma nova coleção para organizar suas interações. Comece com uma solicitação GET para obter a lista de usuários. Explore as operações CRUD facilmente usando a interface web do Postman.
 
-## Simulando Autenticação:
+## Simulando Autenticação
 
 A API Reqres simula autenticação. Descubra como incluir dados de autenticação em suas requisições diretamente no Postman Web. Execute operações de criação, leitura, atualização e exclusão de usuários de forma intuitiva.
 
-## Integração em Projetos Reais:
+## Integração em Projetos Reais
 
 Este guia é apenas o começo! Leve suas habilidades para projetos do mundo real, integrando o Postman Web ao seu fluxo de desenvolvimento.
 
