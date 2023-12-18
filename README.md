@@ -25,6 +25,7 @@
 
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_1_hook_usestate
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_2_calculadora
+- https://snack.expo.dev/@thomasdacostaprof/aula_08_hook_useeffect
 
 ## Objetivo
 
