@@ -4,7 +4,7 @@
 
 ## Tela do Aplicativo
 
-![Tela](screen1.png)
+![Tela](screen1.png) ![Tela](screen2.png)
 
 ## Expo
 
