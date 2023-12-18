@@ -7,6 +7,10 @@
 
 ![Tela](screen1.png)
 
+## Expo
+
+- https://snack.expo.dev/@thomasdacostaprof/aula_07_1_hook_usestate
+
 ## Exercicios da Aula
 
 - Utilizar o código do projeto da aula atual

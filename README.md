@@ -21,6 +21,11 @@
 - Aula 17 – Geração do pacote e deploy nas lojas oficiais
 - Aula 18 – Redux
 
+## Expo
+
+- https://snack.expo.dev/@thomasdacostaprof/aula_07_1_hook_usestate
+- https://snack.expo.dev/@thomasdacostaprof/aula_07_2_calculadora
+
 ## Objetivo
 
 Componentes básicos do React Native e seu funcionamento

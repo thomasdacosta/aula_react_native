@@ -6,6 +6,10 @@ Calculadora simples com React Native demonstrando o uso do Hook useState.
 
 ![Tela](screen1.png)
 
+## Expo
+
+- https://snack.expo.dev/@thomasdacostaprof/aula_07_2_calculadora
+
 ## Exercicios da Aula
 
 - Criar os botões com as operações de subtração, multiplicação e divisão
