@@ -12,4 +12,5 @@
 
 ## Exercicios da Aula
 
-- 
+- Quando entrar no aplicativo, deve ser exibida uma mensagem de boas vindas para o usuário
+- Utilize o alert do Javascript para exibir a mensagem
