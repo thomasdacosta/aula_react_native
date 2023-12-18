@@ -3,53 +3,34 @@ import {Text, View, StyleSheet, TextInput, ActivityIndicator, Modal, Button, Ima
 
 const MENSAGEM_EMAIL = "Digite o seu e-mail.";
 const MENSAGEM_SENHA = "Digite a sua senha.";
-const EMAIL = "eve1.holt@reqres.in";
-const SENHA = "cityslicka";
-
-const ValidateLogin = async (email, senha, status, activity, setModalVisible) => {
-  if (email.trim().length === 0) {
-    alert(MENSAGEM_EMAIL);
-    return
-  }
-
-  if (senha.trim().length === 0) {
-    alert(MENSAGEM_SENHA);
-    return;
-  }
-
-  activity(true);
-
-  let usuario = {
-    "email": email,
-    "password": senha
-  };
-
-  await fetch('https://reqres.in/api/login', {
-    method: "POST",
-    headers: {
-      Accept: "application/json",
-      'Content-Type': "application/json"
-    },
-    body: JSON.stringify(usuario)
-  }).then(response => {
-    if (response.status === 200) {
-      response.text().then(function (result) {
-        status("Usuário autenticado com sucesso.");
-        console.log(result);
-      });
-    } else {
-      setModalVisible(true);
-    }
-    activity(false)
-  }).catch(() => status("Não foi possivel executar o login."));
-}
+const EMAIL = "joao@email.com";
+const SENHA = "senha";
 
 export default () => {
   const [user, setUser] = useState(EMAIL);
   const [password, setPassword] = useState(SENHA);
-  const [status, setStatus] = useState("");
   const [activity, setActivity] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
+
+  const validarLogin = async () => {
+    if (user.trim().length === 0) {
+      alert(MENSAGEM_EMAIL);
+      return
+    }
+
+    if (password.trim().length === 0) {
+      alert(MENSAGEM_SENHA);
+      return;
+    }
+
+    setActivity(true);
+    setModalVisible(true);
+  }
+
+  const fecharModal = () => {
+    setActivity(false);
+    setModalVisible(false);
+  }
 
   return (
       <View style={Estilos.container}>
@@ -57,15 +38,17 @@ export default () => {
             animationType="slide"
             transparent={true}
             visible={modalVisible}>
+
           <View style={Estilos.centeredView}>
             <View style={Estilos.modalView}>
-              <Text style={Estilos.modalText}>Usuários ou senha inválidos!!!</Text>
+              <Text style={Estilos.modalText}>Login efetuado com sucesso!!!</Text>
               <View style={Estilos.button}>
-                <Button onPress={() => setModalVisible(!modalVisible)} title="Fechar"/>
+                <Button onPress={() => fecharModal() } title="Fechar"/>
               </View>
             </View>
           </View>
         </Modal>
+
         <Image style={Estilos.logo} source={require('./marvelLogo.png')} />
         <Text style={Estilos.personagem}>E-mail:</Text>
         <TextInput
@@ -89,12 +72,11 @@ export default () => {
             onChangeText={(value) => setPassword(value)}
         />
         <View style={Estilos.button}>
-          <Button onPress={() => ValidateLogin(user, password, setStatus, setActivity, setModalVisible)} title="Login"/>
+          <Button onPress={() => validarLogin(user, password, setActivity, setModalVisible)} title="Login"/>
         </View>
         <View style={{marginTop: 10}}>
           <ActivityIndicator size="large" animating={activity}/>
         </View>
-        <Text style={Estilos.personagem}>{status}</Text>
       </View>
   )
 };
@@ -163,11 +145,6 @@ const Estilos = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5
-  },
-  textStyle: {
-    color: "white",
-    fontWeight: "bold",
-    textAlign: "center"
   },
   modalText: {
     marginBottom: 15,
