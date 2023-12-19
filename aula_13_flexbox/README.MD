@@ -12,4 +12,6 @@ O Flexbox é uma ferramenta poderosa para criar layouts flexíveis e responsivos
 
 ## Exercicios da Aula
 
-- A
+- Substituir os quadrados do exemplo por imagens
+- Colocar imagens diferentes e tamanhos diferentes
+- A quantidade de imagens deve ser a mesma do exemplo 
