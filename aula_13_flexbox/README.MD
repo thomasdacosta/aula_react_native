@@ -4,7 +4,7 @@ O Flexbox é uma ferramenta poderosa para criar layouts flexíveis e responsivos
 
 ## Tela do Aplicativo
 
-![Tela](screen1.png) ![Tela](screen2.png) ![Tela](screen3.png) ![Tela](screen4.png)
+![Tela](screen1.png) ![Tela](screen2.png) ![Tela](screen3.png)
 
 ## Expo
 
