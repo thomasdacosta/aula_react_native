@@ -15,6 +15,6 @@
 
 ## Exercicios da Aula
 
-- Incluir o campo dataModificacao em cada item dos personagens
-- Incluir um campo a mais no vetor de personagens chamado "idade" e mostrar esse campo no item de personagens
+- Incluir o campo "dataModificacao" em cada item dos personagens
+- Incluir um campo a mais no vetor de personagens chamado "idade" e mostrar esse campo no item de cada personagem
 - Modificar completamente a lista para incluir qualquer tipo de informação que desejar, como por exemplo uma lista de times de futebol
