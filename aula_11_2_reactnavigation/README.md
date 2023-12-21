@@ -1,11 +1,18 @@
-# Sample Snack app
+# Aula 11 - React Navigation
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Exemplo simples de navegação entre telas utilizando o React Navigation
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Tela do Aplicativo
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+![Tela](screen1.png) ![Tela](screen2.png) ![Tela](screen3.png) ![Tela](screen4.png) ![Tela](screen5.png)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Expo
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- https://snack.expo.dev/@thomasdacostaprof/aula_11_2_reactnavigation
+
+## Exercicios da Aula
+
+- Utilizar o código do projeto da aula atual
+- Criar uma nova tela chamada "Tela4"
+- Criar um botão na tela "Tela3" para chamar a tela "Tela4"
+- Incluir a "Tela4" no menu de navegação
