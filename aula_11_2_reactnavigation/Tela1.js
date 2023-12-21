@@ -7,7 +7,13 @@ const Tela1 = ({navigation}) => {
         <Text style={styles.paragraph}>Tela 1 da Navegação</Text>
       </View>
       <View>
-        <Button onPress={() => navigation.navigate("Tela2")} title="Ir para a Tela 2" />
+        <Button onPress={() => navigation.navigate("Tela2", {
+            nome: "João",
+            idade: 25,
+            curso: "Tecnologia em Analise e Desenvolvimento de Sistemas",
+            disciplina: "Programação para Dispositivos Móveis II",
+            ano: 2023
+        })} title="Ir para a Tela 2" />
       </View>
     </View>
   );
