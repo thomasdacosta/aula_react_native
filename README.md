@@ -28,6 +28,8 @@
 - https://snack.expo.dev/@thomasdacostaprof/aula_08_hook_useeffect
 - https://snack.expo.dev/@thomasdacostaprof/aula_10_1_flatlist
 - https://snack.expo.dev/@thomasdacostaprof/aula_10_2_flatlist
+- https://snack.expo.dev/@thomasdacostaprof/aula_11_1_reactnavigation
+- https://snack.expo.dev/@thomasdacostaprof/aula_11_2_reactnavigation
 - https://snack.expo.dev/@thomasdacostaprof/aula_12_modal
 - https://snack.expo.dev/@thomasdacostaprof/aula_13_flexbox
 
