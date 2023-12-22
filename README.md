@@ -20,6 +20,7 @@
 - Aula 16 – Código Nativo no React Native
 - Aula 17 – Geração do pacote e deploy nas lojas oficiais
 - Aula 18 – Redux
+- Aula 19 - Webview
 
 ## Expo
 
@@ -32,6 +33,9 @@
 - https://snack.expo.dev/@thomasdacostaprof/aula_11_2_reactnavigation
 - https://snack.expo.dev/@thomasdacostaprof/aula_12_modal
 - https://snack.expo.dev/@thomasdacostaprof/aula_13_flexbox
+- https://snack.expo.dev/@thomasdacostaprof/aula_14_1_armazenamento_asyncstorage
+- https://snack.expo.dev/@thomasdacostaprof/aula_14_2_armazenamento_mmkv
+- https://snack.expo.dev/@thomasdacostaprof/aula_15_promise_fecth
 
 ## Objetivo
 
