@@ -15,7 +15,7 @@
 - Aula 11 - React Navigation
 - Aula 12 - Modal
 - Aula 13 - Flexbox
-- Aula 14 - Armazenamento - AsyncStorage
+- Aula 14 – Armazenamento de Dados
 - Aula 15 - Promise e Fecth
 - Aula 16 – Código Nativo no React Native
 - Aula 17 – Geração do pacote e deploy nas lojas oficiais
