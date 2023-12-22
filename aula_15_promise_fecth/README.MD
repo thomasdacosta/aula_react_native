@@ -13,3 +13,6 @@
 
 ## Exercicios da Aula
 
+- Criar uma nova aplicação
+- Utilizar qualquer operação de API do site https://reqres.in/
+- Criar a tela para essa aplicação. Por exemplo uma lista de usuários, cadastro de usuário, etc.
