@@ -6,7 +6,7 @@
 - Aula 02 - Conceitos de API REST
 - Aula 03 - JavaScript - Conceitos Básicos
 - Aula 04 - React Native
-- Aula 05 - JavaScript - Functions e Arrow Functions
+- Aula 05 – JavaScript – Functions, Arrow Functions e Export
 - Aula 06 - Componentes Visuais do React Native
 - Aula 07 - Hook - useState
 - Aula 08 - Hook - useEffect

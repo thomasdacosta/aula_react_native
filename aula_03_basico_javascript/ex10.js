@@ -1,8 +1,8 @@
-let vetorNumeros = [1, 2, 3, 4, 5];
+console.log(0 / 0);        // NaN
+console.log(parseInt('string'));  // NaN
 
-let [valor1, valor2, valor3, valor4, valor5] = vetorNumeros;
+console.log(isNaN(NaN));    // true
+console.log(isNaN(10));     // false
+console.log(isNaN("string")); // true, porque a conversão para número falha
 
-console.log(valor1); // -> 1
-console.log(valor2); // -> 2
-console.log(valor3); // -> 4
-
+console.log(Number.isNaN("100"));   // false, porque "100" não é NaN
