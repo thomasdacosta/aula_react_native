@@ -6,47 +6,19 @@ const MENSAGEM_SENHA = "Digite a sua senha.";
 const EMAIL = "eve.holt@reqres.in";
 const SENHA = "cityslicka";
 
-const ValidateLogin = async (email, senha, status, activity) => {
-  if (email.trim().length === 0) {
-    alert(MENSAGEM_EMAIL);
-    return
-  }
-
-  if (senha.trim().length === 0) {
-    alert(MENSAGEM_SENHA);
-    return;
-  }
-
-  activity(true);
-
-  let usuario = {
-    "email": email,
-    "password": senha
-  };
-
-  await fetch('https://reqres.in/api/login', {
-    method: "POST",
-    headers: {
-      Accept: "application/json",
-      'Content-Type': "application/json"
-    },
-    body: JSON.stringify(usuario)
-  }).then(response => {
-    if (response.status === 200) {
-      response.text().then(function (result) {
-        status("Usuário autenticado com sucesso.");
-        console.log(result);
-      });
-    } else {
-      status(`Usuário ou senha inválidos => código: ${response.status}`);
-    }
-    activity(false)
-  }).catch(() => status("Não foi possivel executar o login."));
-}
-
 export default () => {
-  const [user, setUser] = useState('eve.holt@reqres.in')
-  const [password, setPassword] = useState('cityslicka')
+  const validarLogin = () => {
+    setActivity(true)
+    if (user === EMAIL && password === SENHA) {
+      setStatus('Login efetuado com sucesso!')
+    } else {
+      setStatus('Usuário ou senha inválidos!')
+    }
+    setActivity(false)
+  }
+
+  const [user, setUser] = useState(EMAIL)
+  const [password, setPassword] = useState(SENHA)
   const [status, setStatus] = useState('')
   const [activity, setActivity] = useState(false)
 
@@ -78,7 +50,7 @@ export default () => {
               onChangeText={(value) => setPassword(value)}
           />
           <View style={Estilos.button}>
-            <Button onPress={() => ValidateLogin(user, password, setStatus, setActivity)} title="OK" />
+            <Button onPress={() => validarLogin()} title="OK" />
           </View>
           <View style={{marginTop: 10}}>
             <ActivityIndicator size="large" animating={activity}/>
