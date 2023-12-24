@@ -21,10 +21,22 @@
 - Aula 17 – Geração do pacote e deploy nas lojas oficiais
 - Aula 18 – Redux
 - Aula 19 - Webview
+- Aula 20 - React Native Elements
 
 ## Expo
 
 - https://snack.expo.dev/@thomasdacostaprof/aula_05_functions_arrow_functions
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_1_componentes_visuais
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_2_componentes_visuais_view
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_3_componentes_visuais_text
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_4_componentes_visuais_button
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_5_componentes_visuais_textinput
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_6_componentes_visuais_image
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_7_componentes_visuais_imagebackground
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_8_componentes_visuais_activityindicator
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_9_componentes_visuais_safeareaview
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_10_componentes_visuais_scrollview
+- https://snack.expo.dev/@thomasdacostaprof/aula_06_11_componentes_visuais_pressable
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_1_hook_usestate
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_2_calculadora
 - https://snack.expo.dev/@thomasdacostaprof/aula_08_hook_useeffect
