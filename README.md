@@ -25,6 +25,7 @@
 
 ## Expo
 
+- https://snack.expo.dev/@thomasdacostaprof/aula_04_olamundo
 - https://snack.expo.dev/@thomasdacostaprof/aula_05_functions_arrow_functions
 - https://snack.expo.dev/@thomasdacostaprof/aula_06_1_componentes_visuais
 - https://snack.expo.dev/@thomasdacostaprof/aula_06_2_componentes_visuais_view
