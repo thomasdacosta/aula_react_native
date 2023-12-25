@@ -17,11 +17,11 @@
 - Aula 13 - Flexbox
 - Aula 14 – Armazenamento de Dados
 - Aula 15 - Promise e Fecth
-- Aula 16 – Código Nativo no React Native
-- Aula 17 – Geração do pacote e deploy nas lojas oficiais
-- Aula 18 – Redux
-- Aula 19 - Webview
-- Aula 20 - React Native Elements
+- Aula 16 - Webview
+- Aula 17 – Redux 
+- Aula 18 - React Native Elements
+- Aula 19 – Código Nativo no React Native
+- Aula 20 – Geração do pacote e deploy nas lojas oficiais
 
 ## Expo
 
@@ -42,6 +42,7 @@
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_1_hook_usestate
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_2_calculadora
 - https://snack.expo.dev/@thomasdacostaprof/aula_08_hook_useeffect
+- https://snack.expo.dev/@thomasdacostaprof/aula_09_componentizacao_react_native
 - https://snack.expo.dev/@thomasdacostaprof/aula_10_1_flatlist
 - https://snack.expo.dev/@thomasdacostaprof/aula_10_2_flatlist
 - https://snack.expo.dev/@thomasdacostaprof/aula_11_1_reactnavigation
