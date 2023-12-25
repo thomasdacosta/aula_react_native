@@ -1,6 +1,6 @@
 # React Native Componentes
 
-## Tema das aulas
+## Temas das aulas
 
 - Aula 01 - Apresentação
 - Aula 02 - Conceitos de API REST
