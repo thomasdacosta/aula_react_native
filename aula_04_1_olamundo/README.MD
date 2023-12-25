@@ -8,7 +8,7 @@
 
 ## Expo
 
-- https://snack.expo.dev/@thomasdacostaprof/aula_04_olamundo
+- https://snack.expo.dev/@thomasdacostaprof/aula_04_1_olamundo
 
 ## Exercicios da Aula
 
