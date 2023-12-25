@@ -17,8 +17,8 @@
 - Aula 13 - Flexbox
 - Aula 14 – Armazenamento de Dados
 - Aula 15 - Promise e Fecth
-- Aula 16 - Webview
-- Aula 17 – Redux 
+- Aula 16 - WebView
+- Aula 17 – Context API 
 - Aula 18 - React Native Elements
 - Aula 19 – Código Nativo no React Native
 - Aula 20 – Geração do pacote e deploy nas lojas oficiais
