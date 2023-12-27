@@ -20,8 +20,7 @@
 - Aula 16 - WebView
 - Aula 17 – Context API 
 - Aula 18 - React Native Elements
-- Aula 19 – Código Nativo no React Native
-- Aula 20 – Geração do pacote e deploy nas lojas oficiais
+- Aula 19 – Geração do pacote e deploy nas lojas oficiais
 
 ## Expo
 
