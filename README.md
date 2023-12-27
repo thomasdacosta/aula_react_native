@@ -53,6 +53,7 @@
 - https://snack.expo.dev/@thomasdacostaprof/aula_14_2_armazenamento_mmkv
 - https://snack.expo.dev/@thomasdacostaprof/aula_15_promise_fecth
 - https://snack.expo.dev/@thomasdacostaprof/aula_16_webview
+- https://snack.expo.dev/@thomasdacostaprof/aula_17_contextapi
 - https://snack.expo.dev/@thomasdacostaprof/aula_18_reactnativeelements
 
 ## Objetivo
