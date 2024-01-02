@@ -28,7 +28,7 @@ public class UsuariosController {
     }
 
     @GetMapping("/usuarios")
-    public ResponseEntity<List<Usuario>> listaUsuarios() {
+    public ResponseEntity<List<Usuario>> listarUsuarios() {
         Usuario usuario = new Usuario();
         usuario.setEmail("email@email.com");
         usuario.setSenha("senha");
