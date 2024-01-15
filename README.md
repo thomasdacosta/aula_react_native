@@ -79,6 +79,12 @@ Componentes básicos do React Native e seu funcionamento
 ### Node.js CheatSheet
 - https://www.linkedin.com/feed/update/urn:li:activity:7047169371592421376/
 
+### 7 Methods to Loop in JavaScript
+- https://www.linkedin.com/feed/update/urn:li:activity:7048240151780634624/
+
+### JavaScript Arrays Methods in Details
+- https://www.linkedin.com/feed/update/urn:li:activity:7043793346657484800/
+
 ---
 
 Thomás da Costa - [https://thomasdacosta.com.br](https://thomasdacosta.com.br)
