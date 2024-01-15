@@ -59,6 +59,11 @@
 
 Componentes básicos do React Native e seu funcionamento
 
+## Link Úteis
+
+### Advanced JavaScript CheatSheet
+- https://www.linkedin.com/feed/update/urn:li:activity:7152290758824214528/
+
 ---
 
 Thomás da Costa - [https://thomasdacosta.com.br](https://thomasdacosta.com.br)
