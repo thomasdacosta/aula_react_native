@@ -59,6 +59,12 @@
 
 Componentes básicos do React Native e seu funcionamento
 
+## Create Expo Stack
+
+Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Native com Expo. Oferece opções para incluir Typescript, roteamento baseado em arquivos através do Expo Router, roteamento baseado em configuração através do React Navigation puro, estilização via Nativewind, StyleSheets ou Tamagui, e/ou backends como serviço, como Firebase e Supabase.
+
+- https://createexpostack.com/
+
 ## Link Úteis
 
 ### Advanced JavaScript CheatSheet
@@ -85,8 +91,70 @@ Componentes básicos do React Native e seu funcionamento
 ### JavaScript Arrays Methods in Details
 - https://www.linkedin.com/feed/update/urn:li:activity:7043793346657484800/
 
-## Create Expo Stack
-- https://createexpostack.com/
+## React Native - Frameworks UI
+
+- https://gluestack.io/
+- https://fluent2.microsoft.design/
+- https://www.nativewind.dev/
+- https://reactnativeelements.com/
+- https://reactnativepaper.com/
+- https://wix.github.io/react-native-ui-lib/
+- https://tamagui.dev/
+- https://callstack.github.io/react-native-ios-kit/
+- https://akveo.github.io/react-native-ui-kitten/
+- https://hackernoon.com/2022s-top-5-react-native-ui-libraries
+- https://github.com/FaridSafi/react-native-gifted-chat
+- https://react-hook-form.com/
+- https://github.com/lottie-react-native/lottie-react-native
+- https://nativebase.io/
+- https://www.reactnative.express/
+- https://rnmk.xinthink.com/
+- https://github.com/nachos-ui/nachos-ui
+- https://callstack.github.io/react-native-paper/1.0/index.html
+- https://medium.com/nerd-for-tech/top-5-ui-libraries-for-react-native-2ce8a973bb1c
+- https://docs.expo.dev/ui-programming/user-interface-libraries/
+
+## React Native - Bibliotecas
+
+- https://reactnavigation.org/
+- https://react-redux.js.org/
+- https://github.com/react-native-maps/react-native-maps
+- https://github.com/oblador/react-native-vector-icons
+- https://github.com/andpor/react-native-sqlite-storage
+- https://www.alura.com.br/artigos/react-native-fazendo-requisicoes-fetch
+- https://github.com/realm/realm-js
+- https://github.com/reduxjs/redux
+
+## React Native - Expo Links Uteis
+
+- https://docs.expo.dev/eas-update/how-it-works/
+- https://docs.expo.dev/router/installation/
+- https://docs.expo.dev/build/internal-distribution/
+- https://docs.expo.dev/workflow/ios-simulator/
+- https://docs.expo.dev/build/building-from-github/
+- https://docs.expo.dev/build-reference/local-builds/
+- https://docs.expo.dev/modules/get-started/
+
+## React Native - Expo Exemplos
+
+- https://github.com/expo/examples
+
+## React Native - Game Engine
+
+- https://www.npmjs.com/package/react-native-game-engine
+
+## React Native - TextInput 
+
+- https://blog.logrocket.com/complete-guide-textinput-react-native/
+- https://reactnative.dev/docs/handling-text-input
+- https://stackoverflow.com/questions/36147276/how-to-validate-textinput-values-in-react-native
+- https://medium.com/@pavsidhu/validating-forms-in-react-native-7adc625c49cf
+
+## React Native - Gerando o Aplicativo para o celular
+
+- https://docs.expo.dev/build-reference/apk/
+- https://docs.expo.dev/build/setup/
+- https://www.youtube.com/watch?v=-tSMiJRx-hc
 
 ---
 
