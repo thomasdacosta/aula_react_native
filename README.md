@@ -156,6 +156,16 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 - https://docs.expo.dev/build/setup/
 - https://www.youtube.com/watch?v=-tSMiJRx-hc
 
+## Mobile em Geral
+- https://www.geekbench.com/
+- https://www.gsmarena.com/
+- https://www.oficinadanet.com.br/smartphones/33181-todos-os-iphones-ja-lancados
+- https://developer.android.com/about/versions?hl=pt-br
+- https://tecnoblog.net/responde/o-que-e-snapdragon/
+- https://www.promobit.com.br/blog/qual-o-melhor-processador-de-celular/
+- https://unite4buy.com/pt/cpu/mobile-processors-ranking/
+- 
+
 ---
 
 Thomás da Costa - [https://thomasdacosta.com.br](https://thomasdacosta.com.br)
