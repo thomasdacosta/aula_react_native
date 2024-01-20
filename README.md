@@ -134,6 +134,7 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 - https://docs.expo.dev/build/building-from-github/
 - https://docs.expo.dev/build-reference/local-builds/
 - https://docs.expo.dev/modules/get-started/
+- https://docs.expo.dev/workflow/android-studio-emulator/
 
 ## React Native - Expo Exemplos
 
