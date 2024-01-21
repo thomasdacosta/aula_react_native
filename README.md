@@ -157,6 +157,7 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 - https://docs.expo.dev/build/setup/
 - https://www.youtube.com/watch?v=-tSMiJRx-hc
 - https://www.youtube.com/watch?v=bIMk6iaPOBE&t=5s
+- https://docs.expo.dev/guides/permissions/
 
 ## React Native for Windows + macOS
 - https://microsoft.github.io/react-native-windows/
