@@ -134,6 +134,7 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 - https://docs.expo.dev/build/building-from-github/
 - https://docs.expo.dev/build-reference/local-builds/
 - https://docs.expo.dev/modules/get-started/
+- https://docs.expo.dev/workflow/android-studio-emulator/
 
 ## React Native - Expo Exemplos
 
@@ -155,6 +156,23 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 - https://docs.expo.dev/build-reference/apk/
 - https://docs.expo.dev/build/setup/
 - https://www.youtube.com/watch?v=-tSMiJRx-hc
+- https://www.youtube.com/watch?v=bIMk6iaPOBE&t=5s
+- https://docs.expo.dev/guides/permissions/
+
+## React Native for Windows + macOS
+- https://microsoft.github.io/react-native-windows/
+
+## Mobile em Geral
+- https://www.geekbench.com/
+- https://www.gsmarena.com/
+- https://www.oficinadanet.com.br/smartphones/33181-todos-os-iphones-ja-lancados
+- https://developer.android.com/about/versions?hl=pt-br
+- https://tecnoblog.net/responde/o-que-e-snapdragon/
+- https://www.promobit.com.br/blog/qual-o-melhor-processador-de-celular/
+- https://unite4buy.com/pt/cpu/mobile-processors-ranking/
+
+## The Most Popular Development SDKs
+- https://appfigures.com/top-sdks/development/all
 
 ---
 
