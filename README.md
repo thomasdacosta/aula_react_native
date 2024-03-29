@@ -60,6 +60,7 @@
 - https://snack.expo.dev/@thomasdacostaprof/marvel-app
 - https://snack.expo.dev/@thomasdacostaprof/template-react-native
 - https://snack.expo.dev/@thomasdacostaprof/e-commerce
+- https://snack.expo.dev/@thomasdacostaprof/projeto_disciplina_semestre
 
 ## Objetivo
 
