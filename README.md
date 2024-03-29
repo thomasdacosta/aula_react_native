@@ -55,6 +55,12 @@
 - https://snack.expo.dev/@thomasdacostaprof/aula_17_contextapi
 - https://snack.expo.dev/@thomasdacostaprof/aula_18_reactnativeelements
 
+## Expo - outros Snacks
+
+- https://snack.expo.dev/@thomasdacostaprof/marvel-app
+- https://snack.expo.dev/@thomasdacostaprof/template-react-native
+- https://snack.expo.dev/@thomasdacostaprof/e-commerce
+
 ## Objetivo
 
 Componentes básicos do React Native e seu funcionamento
