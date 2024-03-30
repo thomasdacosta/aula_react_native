@@ -61,6 +61,7 @@
 - https://snack.expo.dev/@thomasdacostaprof/template-react-native
 - https://snack.expo.dev/@thomasdacostaprof/e-commerce
 - https://snack.expo.dev/@thomasdacostaprof/projeto_disciplina_semestre
+- https://snack.expo.dev/@thomasdacostaprof/mask_input
 
 ## Objetivo
 
