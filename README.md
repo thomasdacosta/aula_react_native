@@ -6,21 +6,28 @@
 - Aula 02 - Conceitos de API REST
 - Aula 03 - JavaScript - Conceitos Básicos
 - Aula 04 - React Native
-- Aula 05 – JavaScript – Functions, Arrow Functions e Export
-- Aula 06 - Componentes Visuais do React Native
-- Aula 07 - Hook - useState
-- Aula 08 - Hook - useEffect
-- Aula 09 - Componentização no React Native
-- Aula 10 - FlatList
-- Aula 11 - React Navigation
-- Aula 12 - Modal
-- Aula 13 - Flexbox
-- Aula 14 – Armazenamento de Dados
-- Aula 15 - Promise e Fecth
-- Aula 16 - WebView
-- Aula 17 – Context API 
-- Aula 18 - React Native Elements
-- Aula 19 – Geração do pacote e deploy nas lojas oficiais
+- Aula 05 - Persona e Jornada do Usuário
+- Aula 06 - JavaScript – Functions, Arrow Functions e Export
+- Aula 07 - Componentes Visuais do React Native
+- Aula 08 - Hook - useState
+- Aula 09 - Hook - useEffect
+- Aula 10 - Componentização no React Native
+- Aula 11 - FlatList
+- Aula 12 - React Navigation
+- Aula 13 - Modal
+- Aula 14 - Flexbox
+- Aula 15 - Armazenamento de Dados
+- Aula 16 - Promise e Fecth
+- Aula 17 - Webview
+- Aula 18 - Context API
+- Aula 19 - React Native Elements
+- LAB - Aplicativo de Cadastro (Tela e Validação)
+- LAB - Aplicativo de Listagem 
+- LAB - Aplicativo de Cadastro com Navegação 
+- LAB - Atividades de Lab em Geral 
+- LAB - Persona e Jornada do Usuário 
+- LAB - Desenvolvimento do Projeto - Parte 1 
+- LAB - Desenvolvimento do Projeto - Parte 2
 
 ## Expo
 
