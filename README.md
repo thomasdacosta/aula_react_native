@@ -129,6 +129,10 @@ Ferramenta de Linha de Comando (CLI) para inicializar uma aplicação React Nati
 - https://medium.com/nerd-for-tech/top-5-ui-libraries-for-react-native-2ce8a973bb1c
 - https://docs.expo.dev/ui-programming/user-interface-libraries/
 
+## React Native Directory
+
+- https://reactnative.directory/
+
 ## React Native - Bibliotecas
 
 - https://reactnavigation.org/
