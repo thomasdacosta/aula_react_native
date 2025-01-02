@@ -47,12 +47,14 @@
 - https://snack.expo.dev/@thomasdacostaprof/aula_06_11_componentes_visuais_pressable
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_1_hook_usestate
 - https://snack.expo.dev/@thomasdacostaprof/aula_07_2_calculadora
+- https://snack.expo.dev/@thomasdacostaprof/aula_07_3_validacao
 - https://snack.expo.dev/@thomasdacostaprof/aula_08_hook_useeffect
 - https://snack.expo.dev/@thomasdacostaprof/aula_09_componentizacao_react_native
 - https://snack.expo.dev/@thomasdacostaprof/aula_10_1_flatlist
 - https://snack.expo.dev/@thomasdacostaprof/aula_10_2_flatlist
 - https://snack.expo.dev/@thomasdacostaprof/aula_11_1_reactnavigation
 - https://snack.expo.dev/@thomasdacostaprof/aula_11_2_reactnavigation
+- https://snack.expo.dev/@thomasdacostaprof/aula_11_3_reactnavigation
 - https://snack.expo.dev/@thomasdacostaprof/aula_12_modal
 - https://snack.expo.dev/@thomasdacostaprof/aula_13_flexbox
 - https://snack.expo.dev/@thomasdacostaprof/aula_14_1_armazenamento_asyncstorage
