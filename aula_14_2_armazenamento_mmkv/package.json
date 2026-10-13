@@ -1,24 +1,22 @@
 {
-  "name": "aula_14_1_armazenamento_mmkv",
+  "name": "aula_14_2_armazenamento_mmkv",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.16",
+    "expo": "~57.0.28",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-mmkv": "^3.3.3",
+    "react-native-web": "^0.21.2"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
-  },
-  "dependencies": {
-    "@expo/webpack-config": "^0.12.52",
-    "expo": "^49.0.13",
-    "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.71.8",
-    "react-native-web": "~0.18.10"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
   },
   "private": true
 }
